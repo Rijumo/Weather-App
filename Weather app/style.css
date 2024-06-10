@@ -1,0 +1,68 @@
+body{
+    font-family: 'Lato', sans-serif;
+    background-image: url(./photo/nature.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.search{
+    display: flex;
+    margin-top: 15px;
+}
+#input{
+    width: 600px;
+    padding: 20px;
+    border-radius: 16px;
+    height: 8px;
+    border: 2px solid white;
+    font-size: 18px;
+    background-color:transparent;
+    color: white;
+   
+}
+#input:hover{
+    background-color: orange;
+}
+::placeholder{
+    color: white;
+}
+button{
+    width: 180px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-inline: 10px;
+    font-size: 18px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+}
+button:hover{
+    background-color: orange;
+}
+.container{
+        width: 500px;
+        height: 600px;
+        padding: 25px;
+        margin-top: 50px;
+        text-align: center;
+        border-radius: 20px;
+        background-color: transparent;
+        /*border: 5px solid black;*/
+        box-shadow: 5px 5px 5px black;
+      
+}
+.container img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+   
+
+}
+h2{
+    font-size: 30px;
+    font-weight: bolder;
+    text-shadow: 5px 5px 5px black;
+}
